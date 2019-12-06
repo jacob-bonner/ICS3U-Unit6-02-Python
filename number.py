@@ -32,12 +32,14 @@ def main():
     # Adding numbers to an array
     for counter in range(10):
         random_number = random.randint(1, 100)
+        print(random_number)
         number_array.append(random_number)
 
     # Process
     largest_number = calculate(number_array)
 
     # Output
+    print("")
     print("The largest number in the array is", largest_number)
 
 
